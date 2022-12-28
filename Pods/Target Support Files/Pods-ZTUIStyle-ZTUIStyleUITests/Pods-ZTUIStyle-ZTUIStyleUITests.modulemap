@@ -1,0 +1,6 @@
+framework module Pods_ZTUIStyle_ZTUIStyleUITests {
+  umbrella header "Pods-ZTUIStyle-ZTUIStyleUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

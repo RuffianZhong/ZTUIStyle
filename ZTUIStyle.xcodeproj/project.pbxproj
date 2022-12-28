@@ -1,0 +1,835 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15F0DFBC0FB0A8656B28B8E9 /* Pods_ZTUIStyle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E98AAF45EFD04F93B4A8D22F /* Pods_ZTUIStyle.framework */; };
+		9E1B4D468CA54F24A934C832 /* Pods_ZTUIStyle_ZTUIStyleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5BD16539CBDD1444B6E3E14 /* Pods_ZTUIStyle_ZTUIStyleUITests.framework */; };
+		A3768149CB92508335AA8595 /* Pods_ZTUIStyleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F08EB641D15ABDE029B2E40 /* Pods_ZTUIStyleTests.framework */; };
+		B40C0E1D295AF45300C0BC9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B40C0E1C295AF45300C0BC9A /* AppDelegate.m */; };
+		B40C0E28295AF45600C0BC9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B40C0E27295AF45600C0BC9A /* Assets.xcassets */; };
+		B40C0E2E295AF45600C0BC9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B40C0E2D295AF45600C0BC9A /* main.m */; };
+		B40C0E38295AF45700C0BC9A /* ZTUIStyleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B40C0E37295AF45700C0BC9A /* ZTUIStyleTests.m */; };
+		B40C0E42295AF45700C0BC9A /* ZTUIStyleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B40C0E41295AF45700C0BC9A /* ZTUIStyleUITests.m */; };
+		B40C0E44295AF45700C0BC9A /* ZTUIStyleUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B40C0E43295AF45700C0BC9A /* ZTUIStyleUITestsLaunchTests.m */; };
+		B40C0E5B295AF53200C0BC9A /* CornerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B40C0E53295AF53200C0BC9A /* CornerModel.m */; };
+		B40C0E5C295AF53200C0BC9A /* ShadowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B40C0E54295AF53200C0BC9A /* ShadowModel.m */; };
+		B40C0E5D295AF53200C0BC9A /* GradientModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B40C0E58295AF53200C0BC9A /* GradientModel.m */; };
+		B40C0E5E295AF53200C0BC9A /* BorderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B40C0E5A295AF53200C0BC9A /* BorderModel.m */; };
+		B40C0E63295AF53F00C0BC9A /* ZTUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B40C0E60295AF53F00C0BC9A /* ZTUIKit.m */; };
+		B40C0E64295AF53F00C0BC9A /* ZTUitls.m in Sources */ = {isa = PBXBuildFile; fileRef = B40C0E62295AF53F00C0BC9A /* ZTUitls.m */; };
+		B40C0E76295AF5C200C0BC9A /* DemoBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = B40C0E6D295AF5C200C0BC9A /* DemoBaseController.m */; };
+		B40C0E77295AF5C200C0BC9A /* DemoGradientController.m in Sources */ = {isa = PBXBuildFile; fileRef = B40C0E6E295AF5C200C0BC9A /* DemoGradientController.m */; };
+		B40C0E78295AF5C200C0BC9A /* DemoShadowController.m in Sources */ = {isa = PBXBuildFile; fileRef = B40C0E71295AF5C200C0BC9A /* DemoShadowController.m */; };
+		B40C0E79295AF5C200C0BC9A /* DemoBorderController.m in Sources */ = {isa = PBXBuildFile; fileRef = B40C0E72295AF5C200C0BC9A /* DemoBorderController.m */; };
+		B40C0E7A295AF5C200C0BC9A /* DemoCornerController.m in Sources */ = {isa = PBXBuildFile; fileRef = B40C0E73295AF5C200C0BC9A /* DemoCornerController.m */; };
+		B40C0E7B295AF5C200C0BC9A /* DemoMixedController.m in Sources */ = {isa = PBXBuildFile; fileRef = B40C0E75295AF5C200C0BC9A /* DemoMixedController.m */; };
+		B40C0E7F295B012B00C0BC9A /* UIView+ZTUIStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = B40C0E7E295B012B00C0BC9A /* UIView+ZTUIStyle.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B40C0E34295AF45700C0BC9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B40C0E10295AF45300C0BC9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B40C0E17295AF45300C0BC9A;
+			remoteInfo = ZTUIStyle;
+		};
+		B40C0E3E295AF45700C0BC9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B40C0E10295AF45300C0BC9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B40C0E17295AF45300C0BC9A;
+			remoteInfo = ZTUIStyle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36DE82E89BD2919DA355446B /* Pods-ZTUIStyle-ZTUIStyleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZTUIStyle-ZTUIStyleUITests.debug.xcconfig"; path = "Target Support Files/Pods-ZTUIStyle-ZTUIStyleUITests/Pods-ZTUIStyle-ZTUIStyleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		41FA9B8E314023EDEE4E3DDB /* Pods-ZTUIStyle-ZTUIStyleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZTUIStyle-ZTUIStyleUITests.release.xcconfig"; path = "Target Support Files/Pods-ZTUIStyle-ZTUIStyleUITests/Pods-ZTUIStyle-ZTUIStyleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4F08EB641D15ABDE029B2E40 /* Pods_ZTUIStyleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZTUIStyleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E1DDA3F3A3E4B3D09484D36 /* Pods-ZTUIStyle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZTUIStyle.release.xcconfig"; path = "Target Support Files/Pods-ZTUIStyle/Pods-ZTUIStyle.release.xcconfig"; sourceTree = "<group>"; };
+		6C0A71521AA38A91258D09E5 /* Pods-ZTUIStyleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZTUIStyleTests.debug.xcconfig"; path = "Target Support Files/Pods-ZTUIStyleTests/Pods-ZTUIStyleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7501EDE01991CA612501EFFE /* Pods-ZTUIStyleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZTUIStyleTests.release.xcconfig"; path = "Target Support Files/Pods-ZTUIStyleTests/Pods-ZTUIStyleTests.release.xcconfig"; sourceTree = "<group>"; };
+		B321DCF26DE7D0DA409F9B1D /* Pods-ZTUIStyle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZTUIStyle.debug.xcconfig"; path = "Target Support Files/Pods-ZTUIStyle/Pods-ZTUIStyle.debug.xcconfig"; sourceTree = "<group>"; };
+		B40C0E18295AF45300C0BC9A /* ZTUIStyle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZTUIStyle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B40C0E1B295AF45300C0BC9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B40C0E1C295AF45300C0BC9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B40C0E27295AF45600C0BC9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B40C0E2C295AF45600C0BC9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B40C0E2D295AF45600C0BC9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B40C0E33295AF45700C0BC9A /* ZTUIStyleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZTUIStyleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B40C0E37295AF45700C0BC9A /* ZTUIStyleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZTUIStyleTests.m; sourceTree = "<group>"; };
+		B40C0E3D295AF45700C0BC9A /* ZTUIStyleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZTUIStyleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B40C0E41295AF45700C0BC9A /* ZTUIStyleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZTUIStyleUITests.m; sourceTree = "<group>"; };
+		B40C0E43295AF45700C0BC9A /* ZTUIStyleUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZTUIStyleUITestsLaunchTests.m; sourceTree = "<group>"; };
+		B40C0E53295AF53200C0BC9A /* CornerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CornerModel.m; sourceTree = "<group>"; };
+		B40C0E54295AF53200C0BC9A /* ShadowModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShadowModel.m; sourceTree = "<group>"; };
+		B40C0E55295AF53200C0BC9A /* ShadowModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShadowModel.h; sourceTree = "<group>"; };
+		B40C0E56295AF53200C0BC9A /* CornerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CornerModel.h; sourceTree = "<group>"; };
+		B40C0E57295AF53200C0BC9A /* BorderModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BorderModel.h; sourceTree = "<group>"; };
+		B40C0E58295AF53200C0BC9A /* GradientModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientModel.m; sourceTree = "<group>"; };
+		B40C0E59295AF53200C0BC9A /* GradientModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientModel.h; sourceTree = "<group>"; };
+		B40C0E5A295AF53200C0BC9A /* BorderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BorderModel.m; sourceTree = "<group>"; };
+		B40C0E5F295AF53F00C0BC9A /* ZTUitls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTUitls.h; sourceTree = "<group>"; };
+		B40C0E60295AF53F00C0BC9A /* ZTUIKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTUIKit.m; sourceTree = "<group>"; };
+		B40C0E61295AF53F00C0BC9A /* ZTUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTUIKit.h; sourceTree = "<group>"; };
+		B40C0E62295AF53F00C0BC9A /* ZTUitls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTUitls.m; sourceTree = "<group>"; };
+		B40C0E65295AF56000C0BC9A /* Enum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Enum.h; sourceTree = "<group>"; };
+		B40C0E6A295AF5C200C0BC9A /* DemoBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoBaseController.h; sourceTree = "<group>"; };
+		B40C0E6B295AF5C200C0BC9A /* DemoBorderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoBorderController.h; sourceTree = "<group>"; };
+		B40C0E6C295AF5C200C0BC9A /* DemoGradientController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoGradientController.h; sourceTree = "<group>"; };
+		B40C0E6D295AF5C200C0BC9A /* DemoBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoBaseController.m; sourceTree = "<group>"; };
+		B40C0E6E295AF5C200C0BC9A /* DemoGradientController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoGradientController.m; sourceTree = "<group>"; };
+		B40C0E6F295AF5C200C0BC9A /* DemoCornerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoCornerController.h; sourceTree = "<group>"; };
+		B40C0E70295AF5C200C0BC9A /* DemoMixedController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoMixedController.h; sourceTree = "<group>"; };
+		B40C0E71295AF5C200C0BC9A /* DemoShadowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoShadowController.m; sourceTree = "<group>"; };
+		B40C0E72295AF5C200C0BC9A /* DemoBorderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoBorderController.m; sourceTree = "<group>"; };
+		B40C0E73295AF5C200C0BC9A /* DemoCornerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoCornerController.m; sourceTree = "<group>"; };
+		B40C0E74295AF5C200C0BC9A /* DemoShadowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoShadowController.h; sourceTree = "<group>"; };
+		B40C0E75295AF5C200C0BC9A /* DemoMixedController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoMixedController.m; sourceTree = "<group>"; };
+		B40C0E7C295AFFFE00C0BC9A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		B40C0E7D295B012B00C0BC9A /* UIView+ZTUIStyle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+ZTUIStyle.h"; sourceTree = "<group>"; };
+		B40C0E7E295B012B00C0BC9A /* UIView+ZTUIStyle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZTUIStyle.m"; sourceTree = "<group>"; };
+		D5BD16539CBDD1444B6E3E14 /* Pods_ZTUIStyle_ZTUIStyleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZTUIStyle_ZTUIStyleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E98AAF45EFD04F93B4A8D22F /* Pods_ZTUIStyle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZTUIStyle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B40C0E15295AF45300C0BC9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15F0DFBC0FB0A8656B28B8E9 /* Pods_ZTUIStyle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B40C0E30295AF45700C0BC9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3768149CB92508335AA8595 /* Pods_ZTUIStyleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B40C0E3A295AF45700C0BC9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E1B4D468CA54F24A934C832 /* Pods_ZTUIStyle_ZTUIStyleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E98814FA5541D56002BFCCD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B321DCF26DE7D0DA409F9B1D /* Pods-ZTUIStyle.debug.xcconfig */,
+				5E1DDA3F3A3E4B3D09484D36 /* Pods-ZTUIStyle.release.xcconfig */,
+				36DE82E89BD2919DA355446B /* Pods-ZTUIStyle-ZTUIStyleUITests.debug.xcconfig */,
+				41FA9B8E314023EDEE4E3DDB /* Pods-ZTUIStyle-ZTUIStyleUITests.release.xcconfig */,
+				6C0A71521AA38A91258D09E5 /* Pods-ZTUIStyleTests.debug.xcconfig */,
+				7501EDE01991CA612501EFFE /* Pods-ZTUIStyleTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B40C0E0F295AF45300C0BC9A = {
+			isa = PBXGroup;
+			children = (
+				B40C0E1A295AF45300C0BC9A /* ZTUIStyle */,
+				B40C0E36295AF45700C0BC9A /* ZTUIStyleTests */,
+				B40C0E40295AF45700C0BC9A /* ZTUIStyleUITests */,
+				B40C0E19295AF45300C0BC9A /* Products */,
+				9E98814FA5541D56002BFCCD /* Pods */,
+				B99DF431D0036744EB9002B0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B40C0E19295AF45300C0BC9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B40C0E18295AF45300C0BC9A /* ZTUIStyle.app */,
+				B40C0E33295AF45700C0BC9A /* ZTUIStyleTests.xctest */,
+				B40C0E3D295AF45700C0BC9A /* ZTUIStyleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B40C0E1A295AF45300C0BC9A /* ZTUIStyle */ = {
+			isa = PBXGroup;
+			children = (
+				B40C0E69295AF59800C0BC9A /* demo */,
+				B40C0E50295AF47D00C0BC9A /* framework */,
+				B40C0E1B295AF45300C0BC9A /* AppDelegate.h */,
+				B40C0E1C295AF45300C0BC9A /* AppDelegate.m */,
+				B40C0E27295AF45600C0BC9A /* Assets.xcassets */,
+				B40C0E2C295AF45600C0BC9A /* Info.plist */,
+				B40C0E2D295AF45600C0BC9A /* main.m */,
+				B40C0E7C295AFFFE00C0BC9A /* PrefixHeader.pch */,
+			);
+			path = ZTUIStyle;
+			sourceTree = "<group>";
+		};
+		B40C0E36295AF45700C0BC9A /* ZTUIStyleTests */ = {
+			isa = PBXGroup;
+			children = (
+				B40C0E37295AF45700C0BC9A /* ZTUIStyleTests.m */,
+			);
+			path = ZTUIStyleTests;
+			sourceTree = "<group>";
+		};
+		B40C0E40295AF45700C0BC9A /* ZTUIStyleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B40C0E41295AF45700C0BC9A /* ZTUIStyleUITests.m */,
+				B40C0E43295AF45700C0BC9A /* ZTUIStyleUITestsLaunchTests.m */,
+			);
+			path = ZTUIStyleUITests;
+			sourceTree = "<group>";
+		};
+		B40C0E50295AF47D00C0BC9A /* framework */ = {
+			isa = PBXGroup;
+			children = (
+				B40C0E65295AF56000C0BC9A /* Enum.h */,
+				B40C0E52295AF4C700C0BC9A /* model */,
+				B40C0E51295AF4C100C0BC9A /* core */,
+				B40C0E7D295B012B00C0BC9A /* UIView+ZTUIStyle.h */,
+				B40C0E7E295B012B00C0BC9A /* UIView+ZTUIStyle.m */,
+			);
+			path = framework;
+			sourceTree = "<group>";
+		};
+		B40C0E51295AF4C100C0BC9A /* core */ = {
+			isa = PBXGroup;
+			children = (
+				B40C0E61295AF53F00C0BC9A /* ZTUIKit.h */,
+				B40C0E60295AF53F00C0BC9A /* ZTUIKit.m */,
+				B40C0E5F295AF53F00C0BC9A /* ZTUitls.h */,
+				B40C0E62295AF53F00C0BC9A /* ZTUitls.m */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		B40C0E52295AF4C700C0BC9A /* model */ = {
+			isa = PBXGroup;
+			children = (
+				B40C0E57295AF53200C0BC9A /* BorderModel.h */,
+				B40C0E5A295AF53200C0BC9A /* BorderModel.m */,
+				B40C0E56295AF53200C0BC9A /* CornerModel.h */,
+				B40C0E53295AF53200C0BC9A /* CornerModel.m */,
+				B40C0E59295AF53200C0BC9A /* GradientModel.h */,
+				B40C0E58295AF53200C0BC9A /* GradientModel.m */,
+				B40C0E55295AF53200C0BC9A /* ShadowModel.h */,
+				B40C0E54295AF53200C0BC9A /* ShadowModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		B40C0E69295AF59800C0BC9A /* demo */ = {
+			isa = PBXGroup;
+			children = (
+				B40C0E6A295AF5C200C0BC9A /* DemoBaseController.h */,
+				B40C0E6D295AF5C200C0BC9A /* DemoBaseController.m */,
+				B40C0E6B295AF5C200C0BC9A /* DemoBorderController.h */,
+				B40C0E72295AF5C200C0BC9A /* DemoBorderController.m */,
+				B40C0E6F295AF5C200C0BC9A /* DemoCornerController.h */,
+				B40C0E73295AF5C200C0BC9A /* DemoCornerController.m */,
+				B40C0E6C295AF5C200C0BC9A /* DemoGradientController.h */,
+				B40C0E6E295AF5C200C0BC9A /* DemoGradientController.m */,
+				B40C0E70295AF5C200C0BC9A /* DemoMixedController.h */,
+				B40C0E75295AF5C200C0BC9A /* DemoMixedController.m */,
+				B40C0E74295AF5C200C0BC9A /* DemoShadowController.h */,
+				B40C0E71295AF5C200C0BC9A /* DemoShadowController.m */,
+			);
+			path = demo;
+			sourceTree = "<group>";
+		};
+		B99DF431D0036744EB9002B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E98AAF45EFD04F93B4A8D22F /* Pods_ZTUIStyle.framework */,
+				D5BD16539CBDD1444B6E3E14 /* Pods_ZTUIStyle_ZTUIStyleUITests.framework */,
+				4F08EB641D15ABDE029B2E40 /* Pods_ZTUIStyleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B40C0E17295AF45300C0BC9A /* ZTUIStyle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B40C0E47295AF45700C0BC9A /* Build configuration list for PBXNativeTarget "ZTUIStyle" */;
+			buildPhases = (
+				B7AF7CBA0920C0BA4CDA2482 /* [CP] Check Pods Manifest.lock */,
+				B40C0E14295AF45300C0BC9A /* Sources */,
+				B40C0E15295AF45300C0BC9A /* Frameworks */,
+				B40C0E16295AF45300C0BC9A /* Resources */,
+				E0D496557C9DEC34E9A03A35 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZTUIStyle;
+			productName = ZTUIStyle;
+			productReference = B40C0E18295AF45300C0BC9A /* ZTUIStyle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B40C0E32295AF45700C0BC9A /* ZTUIStyleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B40C0E4A295AF45700C0BC9A /* Build configuration list for PBXNativeTarget "ZTUIStyleTests" */;
+			buildPhases = (
+				46AB88852CFF183A924EAF30 /* [CP] Check Pods Manifest.lock */,
+				B40C0E2F295AF45700C0BC9A /* Sources */,
+				B40C0E30295AF45700C0BC9A /* Frameworks */,
+				B40C0E31295AF45700C0BC9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B40C0E35295AF45700C0BC9A /* PBXTargetDependency */,
+			);
+			name = ZTUIStyleTests;
+			productName = ZTUIStyleTests;
+			productReference = B40C0E33295AF45700C0BC9A /* ZTUIStyleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B40C0E3C295AF45700C0BC9A /* ZTUIStyleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B40C0E4D295AF45700C0BC9A /* Build configuration list for PBXNativeTarget "ZTUIStyleUITests" */;
+			buildPhases = (
+				5B60BE32458299D7F827D14F /* [CP] Check Pods Manifest.lock */,
+				B40C0E39295AF45700C0BC9A /* Sources */,
+				B40C0E3A295AF45700C0BC9A /* Frameworks */,
+				B40C0E3B295AF45700C0BC9A /* Resources */,
+				63E734E3145326BB6BA288EA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B40C0E3F295AF45700C0BC9A /* PBXTargetDependency */,
+			);
+			name = ZTUIStyleUITests;
+			productName = ZTUIStyleUITests;
+			productReference = B40C0E3D295AF45700C0BC9A /* ZTUIStyleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B40C0E10295AF45300C0BC9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					B40C0E17295AF45300C0BC9A = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					B40C0E32295AF45700C0BC9A = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = B40C0E17295AF45300C0BC9A;
+					};
+					B40C0E3C295AF45700C0BC9A = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = B40C0E17295AF45300C0BC9A;
+					};
+				};
+			};
+			buildConfigurationList = B40C0E13295AF45300C0BC9A /* Build configuration list for PBXProject "ZTUIStyle" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B40C0E0F295AF45300C0BC9A;
+			productRefGroup = B40C0E19295AF45300C0BC9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B40C0E17295AF45300C0BC9A /* ZTUIStyle */,
+				B40C0E32295AF45700C0BC9A /* ZTUIStyleTests */,
+				B40C0E3C295AF45700C0BC9A /* ZTUIStyleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B40C0E16295AF45300C0BC9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B40C0E28295AF45600C0BC9A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B40C0E31295AF45700C0BC9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B40C0E3B295AF45700C0BC9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46AB88852CFF183A924EAF30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZTUIStyleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B60BE32458299D7F827D14F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZTUIStyle-ZTUIStyleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63E734E3145326BB6BA288EA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZTUIStyle-ZTUIStyleUITests/Pods-ZTUIStyle-ZTUIStyleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZTUIStyle-ZTUIStyleUITests/Pods-ZTUIStyle-ZTUIStyleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZTUIStyle-ZTUIStyleUITests/Pods-ZTUIStyle-ZTUIStyleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7AF7CBA0920C0BA4CDA2482 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZTUIStyle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0D496557C9DEC34E9A03A35 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZTUIStyle/Pods-ZTUIStyle-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZTUIStyle/Pods-ZTUIStyle-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZTUIStyle/Pods-ZTUIStyle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B40C0E14295AF45300C0BC9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B40C0E78295AF5C200C0BC9A /* DemoShadowController.m in Sources */,
+				B40C0E77295AF5C200C0BC9A /* DemoGradientController.m in Sources */,
+				B40C0E5B295AF53200C0BC9A /* CornerModel.m in Sources */,
+				B40C0E7F295B012B00C0BC9A /* UIView+ZTUIStyle.m in Sources */,
+				B40C0E7A295AF5C200C0BC9A /* DemoCornerController.m in Sources */,
+				B40C0E64295AF53F00C0BC9A /* ZTUitls.m in Sources */,
+				B40C0E5C295AF53200C0BC9A /* ShadowModel.m in Sources */,
+				B40C0E79295AF5C200C0BC9A /* DemoBorderController.m in Sources */,
+				B40C0E7B295AF5C200C0BC9A /* DemoMixedController.m in Sources */,
+				B40C0E5D295AF53200C0BC9A /* GradientModel.m in Sources */,
+				B40C0E63295AF53F00C0BC9A /* ZTUIKit.m in Sources */,
+				B40C0E1D295AF45300C0BC9A /* AppDelegate.m in Sources */,
+				B40C0E2E295AF45600C0BC9A /* main.m in Sources */,
+				B40C0E5E295AF53200C0BC9A /* BorderModel.m in Sources */,
+				B40C0E76295AF5C200C0BC9A /* DemoBaseController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B40C0E2F295AF45700C0BC9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B40C0E38295AF45700C0BC9A /* ZTUIStyleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B40C0E39295AF45700C0BC9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B40C0E44295AF45700C0BC9A /* ZTUIStyleUITestsLaunchTests.m in Sources */,
+				B40C0E42295AF45700C0BC9A /* ZTUIStyleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B40C0E35295AF45700C0BC9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B40C0E17295AF45300C0BC9A /* ZTUIStyle */;
+			targetProxy = B40C0E34295AF45700C0BC9A /* PBXContainerItemProxy */;
+		};
+		B40C0E3F295AF45700C0BC9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B40C0E17295AF45300C0BC9A /* ZTUIStyle */;
+			targetProxy = B40C0E3E295AF45700C0BC9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B40C0E45295AF45700C0BC9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZTUIStyle/PrefixHeader.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B40C0E46295AF45700C0BC9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZTUIStyle/PrefixHeader.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B40C0E48295AF45700C0BC9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B321DCF26DE7D0DA409F9B1D /* Pods-ZTUIStyle.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QZ8P3DHUSD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZTUIStyle/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zt.ZTUIStyle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B40C0E49295AF45700C0BC9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E1DDA3F3A3E4B3D09484D36 /* Pods-ZTUIStyle.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QZ8P3DHUSD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZTUIStyle/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zt.ZTUIStyle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B40C0E4B295AF45700C0BC9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C0A71521AA38A91258D09E5 /* Pods-ZTUIStyleTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JKNJAB78PB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zt.ZTUIStyleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZTUIStyle.app/ZTUIStyle";
+			};
+			name = Debug;
+		};
+		B40C0E4C295AF45700C0BC9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7501EDE01991CA612501EFFE /* Pods-ZTUIStyleTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JKNJAB78PB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zt.ZTUIStyleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZTUIStyle.app/ZTUIStyle";
+			};
+			name = Release;
+		};
+		B40C0E4E295AF45700C0BC9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36DE82E89BD2919DA355446B /* Pods-ZTUIStyle-ZTUIStyleUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JKNJAB78PB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zt.ZTUIStyleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZTUIStyle;
+			};
+			name = Debug;
+		};
+		B40C0E4F295AF45700C0BC9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41FA9B8E314023EDEE4E3DDB /* Pods-ZTUIStyle-ZTUIStyleUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JKNJAB78PB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zt.ZTUIStyleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZTUIStyle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B40C0E13295AF45300C0BC9A /* Build configuration list for PBXProject "ZTUIStyle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B40C0E45295AF45700C0BC9A /* Debug */,
+				B40C0E46295AF45700C0BC9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B40C0E47295AF45700C0BC9A /* Build configuration list for PBXNativeTarget "ZTUIStyle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B40C0E48295AF45700C0BC9A /* Debug */,
+				B40C0E49295AF45700C0BC9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B40C0E4A295AF45700C0BC9A /* Build configuration list for PBXNativeTarget "ZTUIStyleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B40C0E4B295AF45700C0BC9A /* Debug */,
+				B40C0E4C295AF45700C0BC9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B40C0E4D295AF45700C0BC9A /* Build configuration list for PBXNativeTarget "ZTUIStyleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B40C0E4E295AF45700C0BC9A /* Debug */,
+				B40C0E4F295AF45700C0BC9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B40C0E10295AF45300C0BC9A /* Project object */;
+}

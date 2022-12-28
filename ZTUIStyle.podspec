@@ -8,8 +8,7 @@ Pod::Spec.new do |spec|
   spec.author       = { "Ruffian" => "632835821@qq.com" }
   spec.platform     = :ios, "9.0"
   spec.source       = { :git => "https://github.com/RuffianZhong/ZTUIStyle.git", :tag => spec.version }
-#  spec.source_files  = "ZTUIStyle", "ZTUIStyle/framework/**/*.{h,m}"
-  spec.source_files  = "ZTUIStyle/ZTUIStyle/framework/**/*.{h,m}"
+  spec.source_files  = "ZTUIStyle/framework/**/*.{h,m}"
 
   spec.requires_arc = true
   spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }

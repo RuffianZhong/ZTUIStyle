@@ -11,8 +11,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface DemoBaseController : UIViewController
 
-@property(nonatomic,strong) UIScrollView *scrollView;
-
 - (UILabel*)makeLabel:(UIColor*)bgColor text:(NSString*)text;
     
 @end

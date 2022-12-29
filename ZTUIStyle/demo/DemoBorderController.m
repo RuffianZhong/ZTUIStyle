@@ -33,19 +33,19 @@
     [_viewBorder_1 mas_makeConstraints:^(MASConstraintMaker *make) {
         make.height.mas_equalTo(150);
         make.width.mas_equalTo(150);
-        make.left.mas_equalTo(self.scrollView.mas_left).offset(20);
-        make.top.mas_equalTo(self.scrollView.mas_top).offset(10);
+        make.left.mas_equalTo(self.view.mas_left).offset(20);
+        make.top.mas_equalTo(self.view.mas_top).offset(10);
     }];
     [_viewBorder_2 mas_makeConstraints:^(MASConstraintMaker *make) {
         make.height.mas_equalTo(150);
         make.width.mas_equalTo(150);
         make.left.mas_equalTo(_viewBorder_1.mas_right).offset(10);
-        make.top.mas_equalTo(self.scrollView.mas_top).offset(10);
+        make.top.mas_equalTo(self.view.mas_top).offset(10);
     }];
     [_viewBorder_3 mas_makeConstraints:^(MASConstraintMaker *make) {
         make.height.mas_equalTo(150);
         make.width.mas_equalTo(150);
-        make.left.mas_equalTo(self.scrollView.mas_left).offset(20);
+        make.left.mas_equalTo(self.view.mas_left).offset(20);
         make.top.mas_equalTo(_viewBorder_1.mas_bottom).offset(10);
     }];
     [_viewBorder_4 mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -69,9 +69,9 @@
     NSArray<UIColor *> * colors = @[[UIColor greenColor],[UIColor redColor]];
     
     [_viewBorder_1 zt_borderWithBorderWidth:borderWidth withBorderColor:borderColor];
-    
+
     [_viewBorder_2 zt_borderWithBorderWidth:borderWidth withBorderColor:borderColor withLineDashPhase:4.0f withLineDashPattern:dashPattern];
-    
+
     [_viewBorder_3 zt_borderWithBorderWidth:borderWidth withBorderGradientColors:colors withBorderGradientDirection:GradientDirectionLeft2Right];
 
     [_viewBorder_4 zt_borderWithBorderWidth:borderWidth withBorderGradientColors:colors withBorderGradientDirection:GradientDirectionLeft2Right withLineDashPhase:4.0f  withLineDashPattern:dashPattern];

@@ -28,8 +28,8 @@
     [_viewMixed mas_makeConstraints:^(MASConstraintMaker *make) {
         make.height.mas_equalTo(150);
         make.width.mas_equalTo(300);
-        make.left.mas_equalTo(self.scrollView.mas_left).offset(20);
-        make.top.mas_equalTo(self.scrollView.mas_top).offset(30);
+        make.left.mas_equalTo(self.view.mas_left).offset(20);
+        make.top.mas_equalTo(self.view.mas_top).offset(30);
     }];
     
     

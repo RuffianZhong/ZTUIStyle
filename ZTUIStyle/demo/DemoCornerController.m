@@ -41,19 +41,19 @@
     [_viewCorner_1 mas_makeConstraints:^(MASConstraintMaker *make) {
         make.height.mas_equalTo(100);
         make.width.mas_equalTo(100);
-        make.left.mas_equalTo(self.scrollView.mas_left).offset(20);
-        make.top.mas_equalTo(self.scrollView.mas_top).offset(10);
+        make.left.mas_equalTo(self.view.mas_left).offset(20);
+        make.top.mas_equalTo(self.view.mas_top).offset(10);
     }];
     [_viewCorner_2 mas_makeConstraints:^(MASConstraintMaker *make) {
         make.height.mas_equalTo(100);
         make.width.mas_equalTo(100);
         make.left.mas_equalTo(_viewCorner_1.mas_right).offset(10);
-        make.top.mas_equalTo(self.scrollView.mas_top).offset(10);
+        make.top.mas_equalTo(self.view.mas_top).offset(10);
     }];
     [_viewCorner_3 mas_makeConstraints:^(MASConstraintMaker *make) {
         make.height.mas_equalTo(100);
         make.width.mas_equalTo(100);
-        make.left.mas_equalTo(self.scrollView.mas_left).offset(20);
+        make.left.mas_equalTo(self.view.mas_left).offset(20);
         make.top.mas_equalTo(_viewCorner_1.mas_bottom).offset(10);
     }];
     [_viewCorner_4 mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -66,7 +66,7 @@
         make.height.mas_equalTo(100);
         make.width.mas_equalTo(100);
         make.left.mas_equalTo(_viewCorner_2.mas_right).offset(20);
-        make.top.mas_equalTo(self.scrollView.mas_top).offset(10);
+        make.top.mas_equalTo(self.view.mas_top).offset(10);
     }];
     [_viewCorner_6 mas_makeConstraints:^(MASConstraintMaker *make) {
         make.height.mas_equalTo(100);
@@ -83,7 +83,7 @@
     [_viewCorner_8 mas_makeConstraints:^(MASConstraintMaker *make) {
         make.height.mas_equalTo(200);
         make.width.mas_equalTo(100);
-        make.left.mas_equalTo(self.scrollView.mas_left).offset(20);
+        make.left.mas_equalTo(self.view.mas_left).offset(20);
         make.top.mas_equalTo(_viewCorner_3.mas_bottom).offset(10);
     }];
     

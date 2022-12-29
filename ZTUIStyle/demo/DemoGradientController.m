@@ -34,19 +34,19 @@
     [_viewGradient_1 mas_makeConstraints:^(MASConstraintMaker *make) {
         make.height.mas_equalTo(150);
         make.width.mas_equalTo(150);
-        make.left.mas_equalTo(self.scrollView.mas_left).offset(20);
-        make.top.mas_equalTo(self.scrollView.mas_top).offset(10);
+        make.left.mas_equalTo(self.view.mas_left).offset(20);
+        make.top.mas_equalTo(self.view.mas_top).offset(10);
     }];
     [_viewGradient_2 mas_makeConstraints:^(MASConstraintMaker *make) {
         make.height.mas_equalTo(150);
         make.width.mas_equalTo(150);
         make.left.mas_equalTo(_viewGradient_1.mas_right).offset(10);
-        make.top.mas_equalTo(self.scrollView.mas_top).offset(10);
+        make.top.mas_equalTo(self.view.mas_top).offset(10);
     }];
     [_viewGradient_3 mas_makeConstraints:^(MASConstraintMaker *make) {
         make.height.mas_equalTo(150);
         make.width.mas_equalTo(150);
-        make.left.mas_equalTo(self.scrollView.mas_left).offset(20);
+        make.left.mas_equalTo(self.view.mas_left).offset(20);
         make.top.mas_equalTo(_viewGradient_1.mas_bottom).offset(10);
     }];
     [_viewGradient_4 mas_makeConstraints:^(MASConstraintMaker *make) {

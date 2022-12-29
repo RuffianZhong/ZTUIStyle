@@ -15,16 +15,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self initScrollView];
-}
-
-- (void)initScrollView{
-    _scrollView = [[UIScrollView alloc] init];
-    [self.view addSubview:_scrollView];
-    
-    [_scrollView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.width.height.left.top.right.bottom.mas_equalTo(self.view);
-    }];
 }
 
 - (UILabel*)makeLabel:(UIColor*)bgColor text:(NSString*)text{
@@ -32,7 +22,7 @@
     view.backgroundColor = bgColor;
     view.text = text;
     view.textAlignment = NSTextAlignmentCenter;
-    [_scrollView addSubview:view];
+    [self.view addSubview:view];
     return view;
 }
 

@@ -6,12 +6,7 @@
 //
 
 #import "AppDelegate.h"
-
-#import "demo/DemoGradientController.h"
-#import "demo/DemoBorderController.h"
-#import "demo/DemoCornerController.h"
-#import "demo/DemoShadowController.h"
-#import "demo/DemoMixedController.h"
+#import "demo/DemoListController.h"
 
 @interface AppDelegate ()
 
@@ -26,15 +21,8 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
     //2.创建根控制器
-//    DemoController *launchController = [[DemoController alloc]init];
-    
-//    DemoBorderController *launchController = [[DemoBorderController alloc]init];
-//      DemoGradientController *launchController = [[DemoGradientController alloc]init];
-//    DemoCornerController *launchController = [[DemoCornerController alloc]init];
-//    DemoShadowController *launchController = [[DemoShadowController alloc]init];
-    DemoMixedController *launchController = [[DemoMixedController alloc]init];
+    DemoListController *launchController = [[DemoListController alloc]init];
 
-    
     UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:launchController];
 //    navController.navigationBarHidden = YES;
     navController.navigationBar.translucent = NO;
@@ -48,6 +36,5 @@
     
     return YES;
 }
-
 
 @end

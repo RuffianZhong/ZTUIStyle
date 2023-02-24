@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "ZTUIStyle"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "An easy way to make a beautiful UI style"
   spec.homepage     = "https://github.com/RuffianZhong/ZTUIStyle"
   spec.license      = "MIT"

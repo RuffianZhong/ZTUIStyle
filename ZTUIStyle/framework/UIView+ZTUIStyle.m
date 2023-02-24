@@ -11,6 +11,42 @@
 
 @implementation UIView (ZTUIStyle)
 
+#pragma mark - 方法交换，监听并自定义实现
++ (void)load
+{
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        /// 方法交换逻辑
+        swizzleMethodForView(self, NSSelectorFromString(@"dealloc"), @selector(dealloc_ZTUIStyle));
+    });
+}
+
+
+void swizzleMethodForView(Class class, SEL originalSelector, SEL swizzledSelector)
+{
+    // the method might not exist in the class, but in its superclass
+    Method originalMethod = class_getInstanceMethod(class, originalSelector);
+    Method swizzledMethod = class_getInstanceMethod(class, swizzledSelector);
+
+    // class_addMethod will fail if original method already exists
+    BOOL didAddMethod = class_addMethod(class, originalSelector, method_getImplementation(swizzledMethod), method_getTypeEncoding(swizzledMethod));
+    
+    // the method doesn’t exist and we just added one
+    if (didAddMethod) {
+        class_replaceMethod(class, swizzledSelector, method_getImplementation(originalMethod), method_getTypeEncoding(originalMethod));
+    }
+    else {
+        method_exchangeImplementations(originalMethod, swizzledMethod);
+    }
+}
+
+- (void)dealloc_ZTUIStyle{
+    // Logic
+    [self releaseZTUIstyleResources];
+    
+    // call original implementation
+    [self dealloc_ZTUIStyle];
+}
 
 #pragma mark - 设置KVO监听 UIView 属性变化
 
@@ -199,10 +235,6 @@ static const char *ZTUIKit_key_AssociatedObject  = "ZTUIKit_key_AssociatedObject
         [self removeZTUIstyleObserver];
         objc_removeAssociatedObjects(self);
     }
-}
-
-- (void)dealloc{
-    [self releaseZTUIstyleResources];
 }
 
 @end
